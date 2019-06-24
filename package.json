@@ -1,0 +1,23 @@
+{
+  "name": "google-map-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "dependencies": {
+    "html-minifier": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordonlkc/responive-google-map-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gordonlkc/responive-google-map-demo/issues"
+  },
+  "homepage": "https://github.com/gordonlkc/responive-google-map-demo#readme"
+}
