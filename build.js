@@ -14,6 +14,11 @@ var result = minify(src, {
     minifyJS: true,
     minifyCSS: true,
 });
+var dir = './dist';
+
+if (!fs.existsSync(dir)){
+    fs.mkdirSync(dir);
+}
 fs.writeFile(path.resolve(__dirname, 'dist/index.html'), result, function(err) {
     if(err) {
         return console.log(err);
